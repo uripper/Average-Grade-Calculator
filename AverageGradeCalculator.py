@@ -1,6 +1,6 @@
 total=[]
 b=int(input("How many grades would you like to calculate the average from? "))
-for i in range(0,b):
+for _ in range(b):
     grade=float(input("Enter numerical grade without percentage symbol: "))
     total.append(grade)
 avg=sum(total)/ b
